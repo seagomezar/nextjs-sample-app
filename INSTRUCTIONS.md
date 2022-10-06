@@ -7,9 +7,9 @@ The following files are included:
 - `accelerator-log.md` : This is the log file from the accelerator engine processing
 - `Tiltfile` : A Tiltfile to enable Live Update and Debugging for Java Workloads using the TAP IDE Plugin (only provided if you selected to "Include TAP IDE Support for Java Workloads")
 
-## Preparing your react-app-sample project
+## Preparing your nextjs-sample-app project
 
-Copy the provided `config` and `catalog` directories including the files they contain into your `react-app-sample` project. Copy the `DEPLOYING.md` file to the root directory of `react-app-sample` project. If a `Tiltfile` was included then copy it to the root directory of `react-app-sample` project.
+Copy the provided `config` and `catalog` directories including the files they contain into your `nextjs-sample-app` project. Copy the `DEPLOYING.md` file to the root directory of `nextjs-sample-app` project. If a `Tiltfile` was included then copy it to the root directory of `nextjs-sample-app` project.
 
 You can now follow the instructions in the `DEPLOYING.md` file to deploy your project.
 

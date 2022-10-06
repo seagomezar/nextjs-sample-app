@@ -1,6 +1,6 @@
 # Tanzu Application Platform
 
-## Working on your react-app-sample project
+## Working on your nextjs-sample-app project
 
 ### Deploying to Kubernetes as a TAP workload with Tanzu CLI
 
@@ -15,9 +15,9 @@ tanzu apps workload apply -f config/workload.yaml
 If you would like to deploy the code from your local working directory you can use the following command:
 
 ```
-tanzu apps workload create react-app-sample -f config/workload.yaml \
+tanzu apps workload create nextjs-sample-app -f config/workload.yaml \
   --local-path . \
-  --source-image <REPOSITORY-PREFIX>/react-app-sample-source \
+  --source-image <REPOSITORY-PREFIX>/nextjs-sample-app-source \
   --type web
 ```
 
@@ -26,7 +26,7 @@ tanzu apps workload create react-app-sample -f config/workload.yaml \
 Determine the URL to use for accessing the app by running:
 
 ```
-tanzu apps workload get react-app-sample
+tanzu apps workload get nextjs-sample-app
 ```
 
 To access the deployed app use the URL shown under "Workload Knative Services".

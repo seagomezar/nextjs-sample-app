@@ -7,9 +7,9 @@
   "bsGitRepository" : "github.com?owner=seagomezar&repo=react-sample-app",
   "includeHasTests" : true,
   "liveUpdateIDESupport" : false,
-  "projectName" : "react-app-sample",
+  "projectName" : "nextjs-sample-app",
   "sourceRepositoryPrefix" : "dev.local",
-  "targetProject" : "react-app-sample"
+  "targetProject" : "nextjs-sample-app"
 }
 ```
 ## Log
@@ -46,14 +46,14 @@
 ┃ ┃ ┃ ┃ ┃ ┃ Debug LICENSE didn't match [INSTRUCTIONS.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┗ Debug README.md didn't match [INSTRUCTIONS.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[1].<combo>.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [my-project->react-app-sample]
+┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [my-project->nextjs-sample-app]
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(chain)
 ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[2].chain (Chain)
 ┃ ┃ ┃ ┃ ┃  Info Running Chain(InvokeFragment, Combo)
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0] (InvokeFragment)
 ┃ ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0] (Let)
-┃ ┃ ┃ ┃ ┃ ┃ Debug Adding symbol artifactId with value 'react-app-sample'
+┃ ┃ ┃ ┃ ┃ ┃ Debug Adding symbol artifactId with value 'nextjs-sample-app'
 ┃ ┃ ┃ ┃ ┃ ┃ Debug Adding symbol gitRepository with value 'https://git.example.com/my-repo'
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(Merge(merge), UniquePath(UseLast))
@@ -90,7 +90,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[1].<combo>.transformations[1] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [https://git.example.com/my-repo->https://git.example....(truncated)]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[1].<combo>.transformations[2] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [my-project->react-app-sample]
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [my-project->nextjs-sample-app]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[1].<combo>.transformations[3] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [main->main]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[1].<combo>.transformations[4] (ReplaceText)
@@ -112,7 +112,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml matched [catalog/catalog-info.yaml] -> included
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug config/workload.yaml didn't match [catalog/catalog-info.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[2].<combo>.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [my-project->react-app-sample]
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [my-project->nextjs-sample-app]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[3] (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, chain...)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[3].<combo> (Chain)
@@ -128,7 +128,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml didn't match [DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug config/workload.yaml didn't match [DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[0].sources[3].<combo>.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [my-project->react-app-sample]
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [my-project->nextjs-sample-app]
 ┃ ┃ ┃ ┃ ┃ ┗ ┗ ┗ ╺ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[0].in.validated.merge.transformations[1] (UniquePath)
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[1] (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(Merge(merge), UniquePath(UseFirst))
@@ -177,10 +177,10 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug .tanzuignore matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗ Debug catalog/catalog-info.yaml matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2].chain.transformations[1].merge.transformations[1] (UniquePath)
-┃ ┃ ┃ ┃ ┗ ┗ ┗ Debug Multiple representations for path 'config/workload.yaml', will use the one appearing first 
+┃ ┃ ┃ ┃ ┗ ┗ ┗ Debug Multiple representations for path 'config/workload.yaml', will use the one appearing first
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[3] (InvokeFragment)
 ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[3] (Let)
-┃ ┃ ┃ ┃ ┃ Debug Adding symbol artifactId with value 'react-app-sample'
+┃ ┃ ┃ ┃ ┃ Debug Adding symbol artifactId with value 'nextjs-sample-app'
 ┃ ┃ ┃ ┃ ┃ ┏ ┏ engine.transformations[0].validated.merge.transformations[0].sources[3].in.validated (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(Merge(merge), UniquePath(UseLast))
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[3].in.validated.merge (Chain)
@@ -195,6 +195,6 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗ null ()
 ┃ ┃ ┃ ┗ ┗ ┗ ┗ ╺ engine.transformations[0].validated.merge.transformations[0].sources[3].in.validated.merge.transformations[1] (UniquePath)
 ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[1] (UniquePath)
-┃ ┗ ┗ ┗ Debug Multiple representations for path 'INSTRUCTIONS.md', will use the one appearing last 
+┃ ┗ ┗ ┗ Debug Multiple representations for path 'INSTRUCTIONS.md', will use the one appearing last
 ┗ ╺ engine.transformations[1] (UniquePath)
 ```
