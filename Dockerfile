@@ -1,7 +1,9 @@
 FROM node:current-slim
-WORKDIR /app
-COPY . .
+WORKDIR /usr/src/app
+
 RUN npm install
 RUN npm run build
+
 EXPOSE 3000
 CMD ["npm", "start"]
+COPY . .
