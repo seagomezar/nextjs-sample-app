@@ -9,7 +9,7 @@ metadata:
 spec:
   params:
     - name: dockerfile
-      value: ./Dockerfile
+      value: ../Dockerfile
     - name: docker_build_context
       value: nextjs-sample-app/
   source:
